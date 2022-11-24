@@ -1,0 +1,25 @@
+
+.table {
+    width: 570px;
+    margin: auto;
+}
+table {
+    width: 100%;
+}
+.d-block {
+    display: none;
+}
+
+  
+@media (max-width: 360px) {
+    .table {
+        width: 320px;
+        margin: auto;
+    }
+    .d-none {
+        display: none;
+    }
+    .d-block {
+        display: block;
+    }
+}
