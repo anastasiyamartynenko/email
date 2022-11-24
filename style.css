@@ -9,6 +9,13 @@ table {
 .d-block {
     display: none;
 }
+.tl-h1 {
+    font-size: 30px;
+    line-height: 36px;
+}
+.center {
+    text-align: left;
+}
 
   
 @media (max-width: 360px) {
@@ -21,5 +28,12 @@ table {
     }
     .d-block {
         display: block;
+    }
+    .tl-h1 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .center {
+        text-align: center;
     }
 }
